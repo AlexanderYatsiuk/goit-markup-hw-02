@@ -7,10 +7,23 @@
     font-display: swap;
 }
 
-body {
-font-family: 'Roboto', sans-serif;
+:root {
+    --main-text-color: #757575;
+    --title-color: #212121;
+    --accent-color: #2196F3;
+    --alt-text-color: #FFFFFF;
+
+    --line-bg: #FFFFFF; /* верхняя линия */
+    --dark-bg: #2F303A; /* шапка */
+    --card-bg: #FFFFFF; /* карточки команды */
+    --team--bg: #F5F4FA; /* шапка команды */
+    --footer-bg: #2F303A; /* нижняя часть */
+
+    --main-font: "Roboto", sans-serif; /* основной текст */
+    --name-site: "Raleway", sans-serif; /* названия сайта */
 }
 
-h1 {
-    font-family: "Raleway", sans-serif;  
+body {
+font-family: var(--main-font);
 }
+
