@@ -30,9 +30,58 @@ body {
    letter-spacing: 0.03em;
    color: var(--main-text-color);
 }
-
+/* сброс цвета ссылок и подчёркивания */
 .link {
     color: inherit;
     text-decoration: none;
 }
-
+/* подсветка ссылок и кнопок */
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+/* сброс маркировки списков */
+.list {
+    list-style: none;
+}
+/* сброс курсивного шрифта italic */
+.address {
+    font-style: inherit;
+}
+/* эффективные решения для вашего бизнеса */
+.page-title {
+    font-family: var(--alt-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+/* заголовки h2 */
+.section-title {
+    font-family: var(--main-font);
+    font-size: 36px;
+    line-height: 1.17x;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+/* заголовок h3 */
+.mini-title {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+/* Команда*/
+.team {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
