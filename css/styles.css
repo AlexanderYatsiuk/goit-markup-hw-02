@@ -152,6 +152,10 @@ letter-spacing: 0.02em;
 }
 /*Футер Контакты*/
 .footer-contact {
-line-height: 1.71;
-color: var(--alt-text-color);
+    line-height: 1.71;
+    color: var(--alt-text-color);
+}
+/*Курсор для кнопки*/
+.box {
+     cursor: pointer;
 }
