@@ -14,10 +14,10 @@
     --alt-text-color: #FFFFFF;
 
     --line-bg: #FFFFFF; /* верхняя линия */
-    --dark-bg: #2F303A; /* шапка */
+    --dark-bg: #2F303A; /* шапка + футер */
     --card-bg: #FFFFFF; /* карточки команды */
     --team--bg: #F5F4FA; /* шапка команды */
-    --footer-bg: #2F303A; /* нижняя часть */
+    
 
     --main-font: "Roboto", sans-serif; /* основной текст */
     --name-site: "Raleway", sans-serif; /* названия сайта */
@@ -47,6 +47,14 @@ body {
     letter-spacing: 0.03em;
     color: var(--title-color);
 }
+.span-withe {
+    font-family: var(--name-site);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--alt-text-color);
+}
 /* сброс цвета ссылок и подчёркивания */
 .link {
     color: inherit;
@@ -60,10 +68,15 @@ body {
 
 .link-nav {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-color);
+}
+/*Почта Телефон Шапка*/
+.cap-contact {
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 /* сброс маркировки списков */
 .list {
@@ -85,14 +98,14 @@ body {
     border-radius: 4px;
 }
 /* эффективные решения для вашего бизнеса */
-.page-title {
-    font-family: var(--alt-text-color);
+.page-title { 
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color: var(--alt-text-color);
 }
 /* заголовки h2 */
 .section-title {
@@ -105,7 +118,6 @@ body {
 /* заголовок h3 */
 .mini-title {
     font-family: var(--main-font);
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-color);
@@ -120,11 +132,26 @@ body {
 }
 /*Параграфы описаний*/
 .paragraph {
-    font-size: 14px;
     line-height: 1.71;
 }
 /*Должность*/
 .position {  
     font-size: 16px;
     line-height: 1.19;
+}
+/*Фоны*/
+.dark-bg {
+    background-color: var(--dark-bg);
+}
+.team-bg {
+    background-color: var(--team--bg);
+}
+/*Карточки*/
+.card-bg {
+    background-color: var(--card-bg)
+}
+/*Футер Контакты*/
+.footer-contact {
+line-height: 1.71;
+color: var(--alt-text-color);
 }
