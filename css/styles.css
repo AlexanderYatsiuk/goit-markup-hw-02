@@ -155,7 +155,13 @@ letter-spacing: 0.02em;
 /*Футер Контакты*/
 .footer-contact {
     line-height: 1.71;
-    color: var(--alt-text-color);
+    color: rgba(255, 255, 255, 0.6);
+}
+/*Адресс Киев - белым*/
+.kiev {
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--alt-text-color)
 }
 /*Курсор для кнопки*/
 .box {
