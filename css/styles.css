@@ -193,3 +193,7 @@ line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;;
 }
+/* Подсветка текущей страницы */
+.active {
+    color: var(--accent-color);
+}
